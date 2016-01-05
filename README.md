@@ -239,18 +239,7 @@ family_members.keys
 #  => [:mom, :dad, :sister]
 ```
 
-### `.min`
-
-You can use the `.min` method on a hash to return the key/value *pair* that contains that **lowest** value: 
-
-```ruby
-food_items = {apples: 45, pears: 12}
-
-food_items.min
-#  => [:apples, 45] 
-```
-
-These are only a few of the many helpful methods out there. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.2/Hash.html) to learn more. 
+There are many other useful methods for hashes. Be sure to check out the [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.2/Hash.html) to learn more. 
 
 Let's practice before you move on to the next challenge: 
 
