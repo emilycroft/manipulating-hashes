@@ -169,7 +169,7 @@ contacts.each do |person, data|
   #to iterate over the "data" hash, we can use the following line: 
   
   data.each do |attribute, value|
-    #at this level, "attribute" is describes the key of :name, :email, :favorite_icecream_flavors, or :knows
+    #at this level, "attribute" describes the key of :name, :email, :favorite_icecream_flavors, or :knows
     #we need to first check and see if the key is :favorite_icecream_flavors,
     #if it is, that means the VALUE is an array that we can iterate over to print out each element
     
@@ -269,3 +269,5 @@ You'll be coding your solution to this challenge in `lib/second_challenge.rb`. I
 * [Ruby Docs on Hashes](http://ruby-doc.org/core-2.2.0/Hash.html)
 
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/manipulating-hashes' title='Code Along Exercise: Manipulating Hashes'>Code Along Exercise: Manipulating Hashes</a> on Learn.co and start learning to code for free.</p>
+
+<p class='util--hide'>View <a href='https://learn.co/lessons/manipulating-hashes'>Code Along - Manipulating Hashes</a> on Learn.co and start learning to code for free.</p>
